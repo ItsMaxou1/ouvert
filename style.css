@@ -1,0 +1,180 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #C5A66D;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+    position: relative;
+    margin-top: -0.3%;
+}
+
+/* style h1 */
+
+h1#ouverture-titre {
+    font-family: 'Arial', sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #C5A66D;
+}
+
+/* fin style h1 */
+
+.ribbon-container {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    padding: 150px 0px 70px 0px;
+    background-color: black;
+}
+
+/* Style pour les images */
+#ribbon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    max-height: 100px; /* Ajuster la hauteur */
+    object-fit: cover;
+}
+
+
+#scissors {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-height: 158px;
+    max-width: 800px;
+    object-fit: cover;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #C5A66D;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #FFD700;
+}
+
+main {
+    padding: 50px 0;
+    text-align: center;
+}
+
+/* style du about */
+
+.about {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.about img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.about p {
+
+}
+
+/* fin du style du about */
+
+h2 {
+    font-size: 36px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.contact-info,
+.location,
+.social-icons {
+    margin-bottom: 20px;
+}
+
+.contact-info p,
+.location p {
+    margin: 5px 0;
+}
+
+.contact-info span,
+.location span {
+    color: #C5A66D;
+}
+
+.inauguration {
+    background-color: #C5A66D;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    text-align: center;
+}
+.inauguration h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.inauguration p {
+    margin: 10px 0;
+}
+
+/* style jeu concours */
+
+#code-section {
+    display: none;
+}
+
+#error-message {
+    display: none;
+    color: red;
+}
+
+/* style pour fermer la participation */
+
+#close-btn {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#close-btn:hover {
+    background-color: #C5A66D;
+    color: black;
+}
+
+/* fin du style pour fermer la participation */
+
+/* fin du style du jeu concours */

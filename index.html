@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ouverture Imminente - Gini Carrelage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="ribbon-container">
+    <img src="straight-red-ribbon-with-cute-bow-for-decoration-design-element-png.webp" alt="Ruban de coupe" id="ribbon">
+    <img src="ciseau.png" alt="Ciseaux" id="scissors">
+</div>
+
+<header>
+    <h1 id="ouverture-titre">Ouverture Imminente !</h1>
+    <a href="#participer" class="btn">Participez au concours</a>
+</header>
+
+<main>
+    <section class="about">
+        <h2>À propos de Gini Carrelage</h2>
+        <img src="télécharger (5).jpeg" alt="Magasin Gini Carrelage">
+        <p>Gini Carrelage vous propose une sélection exceptionnelle de carrelages et d'équipements de salle de bain pour transformer votre maison en un espace élégant et fonctionnel. Découvrez notre large gamme de douches, miroirs, receveurs, et bien plus encore. L'ouverture de notre magasin est l'occasion parfaite pour vous offrir le meilleur en matière de design et de qualité. Ne manquez pas cette opportunité unique !</p>
+        <a href="https://www.ginicarrelage.fr" class="btn">Découvrez notre site</a>
+    </section>
+
+    <section class="inauguration">
+        <h2>Inauguration</h2>
+        <p>Rejoignez-nous pour célébrer l'ouverture de notre nouveau magasin ! Venez découvrir nos produits, rencontrer notre équipe et profiter d'offres spéciales exclusives pour cette journée spéciale.</p>
+        <p>Date: [Insérer la date de l'inauguration]</p>
+        <p>Adresse: Pl. 213 rue Saint Julien à Rouen (76100)</p>
+    </section>  
+    
+    <section class="concours">
+        <div id="participer"></div>
+        <h2>Jeu Concours</h2>
+        <form class="concours-form" id="concours-form">
+            <label for="email">Entrez votre adresse email :</label>
+            <input type="email" id="email" name="email" required>
+            <label for="name">Entrez votre nom :</label>
+            <input type="text" id="name" name="name" required>
+            <button type="submit" class="btn" id="participer-btn">Participer</button>
+        </form>
+        <div id="code-section" style="display: none;">
+            <h2>Votre Code de Réduction</h2>
+            <p>Utilisez le code ci-dessous lors de votre prochain achat pour obtenir une réduction de 200€ :</p>
+            <p id="code">XXXXXX</p>
+            <p>Conditions : Valable pour un achat minimum de 500€.</p>
+            <button id="close-btn">Fermer</button>
+        </div>
+        <div id="error-message" style="display: none;">
+            <p>Désolé, le concours est terminé.</p>
+        </div>
+    </section>
+
+</main>
+
+<footer>
+    <div class="contact-info">
+        <p>Service Client : <span>07 70 78 63 48</span></p>
+        <p>Email : <span>contact@ginicarrelage.fr</span></p>
+        <a href="#conditions">Nos Conditions Générales de Vente</a>
+    </div>
+    <div class="location">
+        <p>Visitez-nous au : <span>Pl. 213 rue Saint Julien à Rouen (76100)</span></p>
+    </div>
+    <div class="social-icons">
+        <a href="#"><img src="facebook-icon.svg" alt="Facebook"></a>
+        <a href="#"><img src="instagram-icon.svg" alt="Instagram"></a>
+        <a href="#"><img src="linkedin-icon.svg" alt="LinkedIn"></a>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
